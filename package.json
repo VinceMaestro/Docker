@@ -1,0 +1,16 @@
+{
+	"name": "docker_web_app",
+	"version": "1.0.0",
+	"description": "First try node server on docker container",
+	"author": "vpetit <vpetit@student.42.fr>",
+	"main": "vote.js",
+	"scripts": {
+		"vote": "node vote.js"
+	},
+	"dependencies": {
+		"express": "^4.13.3",
+		"ethereumjs-testrpc": "latest",
+		"web3": "0.20.1",
+		"solc": "latest"
+	}
+}
